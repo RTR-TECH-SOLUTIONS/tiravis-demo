@@ -1,0 +1,1 @@
+var e=`/tiravis-demo`.replace(/\/$/,``);function t(t){return t?!t.startsWith(`/`)||t.startsWith(`//`)||e&&t.startsWith(`${e}/`)?t:`${e}${t}`||`/`:t??``}export{t};

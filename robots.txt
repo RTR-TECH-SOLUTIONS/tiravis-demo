@@ -1,0 +1,4 @@
+# Demo de prezentare. Catalogul aparține clientului, iar o copie indexată
+# i-ar strica SEO-ul site-ului real. Nu se indexează nimic.
+User-agent: *
+Disallow: /

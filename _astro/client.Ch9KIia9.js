@@ -1,0 +1,1 @@
+import{t as e}from"./persistent.DoRMD8fE.js";var t=e(`tiravis:client`,`pf`);function n(e){t.set(e),typeof document<`u`&&(document.documentElement.dataset.client=e)}export{t as n,n as t};

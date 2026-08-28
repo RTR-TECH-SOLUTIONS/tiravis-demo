@@ -1,0 +1,1 @@
+import{t as e}from"./persistent.BP0k6YY4.js";var t=e(`tiravis:favorite`,[],{encode:JSON.stringify,decode:JSON.parse}),n=(e,n=t.get())=>n.some(t=>t.slug===e);function r(e){let r=t.get();return n(e.slug,r)?(t.set(r.filter(t=>t.slug!==e.slug)),!1):(t.set([...r,e]),!0)}var i=e=>t.set(t.get().filter(t=>t.slug!==e));export{t as n,i as r,r as t};

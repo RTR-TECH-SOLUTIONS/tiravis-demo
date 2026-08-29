@@ -1,1 +1,0 @@
-import{t as e}from"./react.DJx7QJrC.js";var t=e();function n(){let[e,n]=(0,t.useState)(!1);return(0,t.useEffect)(()=>n(!0),[]),e}export{n as t};

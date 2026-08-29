@@ -1,0 +1,1 @@
+import{t as e}from"./persistent.BP0k6YY4.js";var t=e(`tiravis:istoric`,[],{encode:JSON.stringify,decode:JSON.parse});function n(e){let n=t.get().filter(t=>t.slug!==e.slug);t.set([e,...n].slice(0,12))}var r=()=>t.set([]);export{n,r,t};

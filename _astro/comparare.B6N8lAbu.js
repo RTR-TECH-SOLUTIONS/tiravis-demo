@@ -1,0 +1,1 @@
+import{t as e}from"./persistent.BP0k6YY4.js";var t=e(`tiravis:comparare`,[],{encode:JSON.stringify,decode:JSON.parse});function n(e){let n=t.get();return n.some(t=>t.slug===e.slug)?(t.set(n.filter(t=>t.slug!==e.slug)),!0):n.length>=4?!1:(t.set([...n,e]),!0)}var r=e=>t.set(t.get().filter(t=>t.slug!==e)),i=()=>t.set([]);export{r as i,n,i as r,t};

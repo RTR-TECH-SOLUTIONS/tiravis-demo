@@ -1,0 +1,1 @@
+import{n as e}from"./istoric.qPO1vn56.js";var t=document.querySelector(`[data-vizita]`);t?.dataset.slug&&e({slug:t.dataset.slug,nume:t.dataset.nume??``,imagine:t.dataset.imagine||null,categorie:t.dataset.categorie??``,subcategorie:t.dataset.subcategorie||null});
